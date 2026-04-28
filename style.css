@@ -29,5 +29,9 @@ section {;
     background-color:  rgb(245, 186, 108);
     border-radius: 10px;
     margin: 30;
-
+}
+section:hover { 
+    background-color: rgb(249, 204, 150);
+    border-radius: 10px;
+    margin: 30;
 }
