@@ -1,14 +1,20 @@
 body {
-    background-color: rgb(235, 140, 16);
+    background-color: rgb(125, 75, 39);
 }
 header {
     text-align: center;
-    font-size: x-large;
-    padding: 20px;
-    margin: 10px;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 50px;
+    margin: 40px;
     background-color: rgb(210, 122, 15);
+    font-weight: 900;
 }
-
+.p1 {
+    font-display: list-item;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 h1 {
     text-align: center;
 }
@@ -18,4 +24,10 @@ h1 {
     height: 200px;
     text-align: center;
     font-size: larger;
+}
+section {;
+    background-color:  rgb(245, 186, 108);
+    border-radius: 10px;
+    margin: 30;
+
 }
