@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(235, 140, 16);
+}
+header {
+    text-align: center;
+    font-size: x-large;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(210, 122, 15);
+}
+
+h1 {
+    text-align: center;
+}
+.div1 {display: list-item;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    text-align: center;
+    font-size: larger;
+}
