@@ -1,43 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Akan Name Generator</title>
-  <link rel="stylesheet" href="./style.css" />
-</head>
-<body>
-  <section class="about">
-  <header><strong>AKAN NAME GENERATOR </strong></header>
-  <h1>About the Generator</h1>
-  <p class="p1">The Akan Name Generator is a simple web application that helps users discover their traditional Akan name based on their date of birth and gender. In Akan culture, names are deeply connected to the day of the week a person is born, reflecting cultural identity and personal characteristics. This project takes a user’s birthdate, calculates the corresponding day of the week, and then displays their Akan name along with its cultural significance. It’s an engaging way to learn about Ghanaian naming system.</p> 
-  </section>
-  <br>
-  <section class="filling">
-  <div class="div1">
-    <h1>Akan Name Generator</h1>
-    <p>Enter your birthdate and gender to find out your Akan name</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akan Name Generator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="about">
+      <header><strong>AKAN NAME GENERATOR </strong></header>
+      <h1>About the Generator</h1>
+      <p class="p1">
+        The Akan Name Generator is a simple web application that helps users
+        discover their traditional Akan name based on their date of birth and
+        gender. In Akan culture, names are deeply connected to the day of the
+        week a person is born, reflecting cultural identity and personal
+        characteristics. This project takes a user’s birthdate, calculates the
+        corresponding day of the week, and then displays their Akan name along
+        with its cultural significance. It’s an engaging way to learn about
+        Ghanaian naming system.
+      </p>
+    </section>
+    <br />
+    <section class="filling">
+      <div class="div1">
+        <h1>Akan Name Generator</h1>
+        <p>Enter your birthdate and gender to find out your Akan name</p>
+      </div>
 
-    <form id="akan-form">
-      <label for="birthdate">Enter your Birth Date:</label>
-      <input type="date" id="birthdate" required />
-      <br>
+      <form id="akanform">
+        <label for="birthdate">Enter your Birth Date:</label>
+        <input type="date" id="birthdate" required />
 
-      <label for="gender">Enter your Gender:</label>
-      <select id="gender" required>
-        <option value="">--Select Gender--</option>
-        <option value="male">Male</option>
-        <option value="female">Female</option>
-      </select>
-      <br>
+        <label for="gender">Enter your Gender:</label>
+        <select id="gender" required>
+          <option value="">--Select Gender--</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
 
-      <button type="submit">Get My Akan Name</button>
-    </form>
+        <button type="submit">Get My Akan Name</button>
+      </form>
+    </section>
 
-    <div id="result" class="result"></div>
-  </div>
-  </section>
+    <section class="result-section">
+      <div id="result" class="result"></div>
+    </section>
 
-  <script src="script.js" defer></script>
-</body>
+    <footer>
+      <p>&copy; AKAN NAME GENERATOR</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
 </html>

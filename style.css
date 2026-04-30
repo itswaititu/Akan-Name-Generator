@@ -1,37 +1,99 @@
 body {
-    background-color: rgb(125, 75, 39);
+  margin: 0;
+  min-height: 100vh;
+  background-image: url("./trad 1.jpg");
+  background-color: #f5deb3;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 header {
-    text-align: center;
-    font-size: xx-large;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 50px;
-    margin: 40px;
-    background-color: rgb(210, 122, 15);
-    font-weight: 900;
+  text-align: center;
+  font-size: xx-large;
+  padding: 50px;
+  margin: 40px;
+  background-color: rgb(210, 122, 15);
+  font-weight: 900;
 }
 .p1 {
-    font-display: list-item;
-    font-size: larger;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-display: list-item;
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 h1 {
-    text-align: center;
+  text-align: center;
 }
-.div1 {display: list-item;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    text-align: center;
-    font-size: larger;
+.div1 {
+  display: list-item;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  text-align: center;
+  font-size: larger;
 }
-section {;
-    background-color:  rgb(245, 186, 108);
-    border-radius: 10px;
-    margin: 30;
+section {
+  background-color: rgb(245, 186, 108);
+  border-radius: 10px;
+  margin: 100;
+  opacity: 0.9;
 }
-section:hover { 
-    background-color: rgb(249, 204, 150);
-    border-radius: 10px;
-    margin: 30;
+section:hover {
+  background-color: rgb(249, 204, 150);
+  border-radius: 10px;
+  margin: 30;
 }
+
+#akanform {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+}
+#akanform label {
+  width: 70;
+  text-align: left;
+  font-weight: 700;
+  margin-top: 10px;
+}
+#akanform input[type="date"],
+#akanform select {
+  width: 70%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.95);
+}
+#akanform input[type="date"]:focus,
+#akanform select:focus {
+  outline: none;
+  border-color: rgb(210, 122, 15);
+  box-shadow: 0 0 0 4px rgba(210, 122, 15, 0.14);
+}
+#akanform button {
+  width: 40%;
+  height: 60%;
+  border-radius: 999px;
+  background: rgb(210, 122, 15);
+  font-size: large;
+  font-weight: 700;
+  cursor: pointer;
+}
+#akanform button:hover {
+  background: rgb(178, 104, 12);
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(210, 122, 15);
+  color: white;
+  font-weight: 700;
+}
+#result {
+  text-align: center;
+  font-size: larger;
+  font-weight: 700;
+  margin: 100px;
+
+}
+
