@@ -69,7 +69,7 @@ form.addEventListener("submit", function (event) {
   // Parse the date components
   const dateParts = birthdateValue.split("-");
   if (dateParts.length !== 3) {
-    alert("Please enter a valid birth date in YYYY-MM-DD format.");
+    alert("Please enter a valid birth date.");
     return;
   }
 
