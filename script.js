@@ -40,10 +40,8 @@ function getDayOfWeek(day, month, year) {
     ) % 7;
 
   dayIndex = Math.floor(dayIndex);
-  dayIndex = (dayIndex + 7) % 7; // Ensure positive remainder
+  dayIndex = (dayIndex + 7) % 7; //Basically is for ensuring positive remainders only
 
-  // Zeller's formula gives: 0=Saturday, 1=Sunday, 2=Monday, 3=Tuesday, 4=Wednesday, 5=Thursday, 6=Friday
-  // Convert to our days array format (0=Sunday, 1=Monday, ..., 6=Saturday)
   return (dayIndex + 1) % 7;
 }
 
