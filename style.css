@@ -52,11 +52,6 @@ section:hover {
   justify-content: center;
   padding: 20px;
 }
-#akanform label {
-  width: 30;
-  text-align: left;
-  font-weight: 700;
-}
 #akanform input[type="date"],
 #akanform select {
   width: 30%;
