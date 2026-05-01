@@ -57,12 +57,12 @@ form.addEventListener("submit", function (event) {
   const genderValue = document.getElementById("gender").value;
 
   if (!birthdateValue) {
-    alert("Please enter your birth date.");
+    alert("Please enter your birth date (required).");
     return;
   }
 
   if (!genderValue) {
-    alert("Please select a gender.");
+    alert("Please select your gender.");
     return;
   }
 
