@@ -20,7 +20,7 @@ Akan Name Generator is a simple web application that assigns an Akan name based 
 
 ## Live site
 
-Live site: https://nathan.github.io/Akan-Name-Generator
+Live site:  https://itswaititu.github.io/Akan-Name-Generator/
 
 ## License
 
