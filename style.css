@@ -25,6 +25,9 @@ header {
 }
 h1 {
   text-align: center;
+  text-decoration: underline;
+  font-size: xx-large;
+  font-family: 'Times New Roman', Times, serif;
 }
 .div1 {
   display: list-item;
