@@ -20,7 +20,8 @@ header {
 .p1 {
   font-display: list-item;
   font-size: larger;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: fantasy;
+  font-weight: 300;
 }
 h1 {
   text-align: center;
