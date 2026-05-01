@@ -90,7 +90,7 @@ form.addEventListener("submit", function (event) {
     testDate.getMonth() !== month - 1 ||
     testDate.getFullYear() !== year
   ) {
-    alert("Please enter a valid birth date.");
+    alert("Please Enter a Valid birth Date.");
     return;
   }
 
