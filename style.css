@@ -8,7 +8,6 @@ body {
   background-position: center;
   background-attachment: fixed;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  height: min-content;
 }
 header {
   text-align: center;
