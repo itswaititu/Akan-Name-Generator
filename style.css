@@ -8,6 +8,7 @@ body {
   background-position: center;
   background-attachment: fixed;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  height: min-content;
 }
 header {
   text-align: center;
@@ -36,7 +37,7 @@ h1 {
 section {
   background-color: rgb(245, 186, 108);
   border-radius: 10px;
-  margin: 100;
+  margin: 30px;
   opacity: 0.9;
 }
 section:hover {
@@ -55,7 +56,6 @@ section:hover {
   width: 70;
   text-align: left;
   font-weight: 700;
-  margin-top: 10px;
 }
 #akanform input[type="date"],
 #akanform select {
@@ -94,6 +94,6 @@ footer {
   font-size: larger;
   font-weight: 700;
   margin: 100px;
-
+display: flex;
 }
 
