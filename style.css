@@ -72,7 +72,7 @@ section:hover {
   width: 20%;
   height: 60%;
   border-radius: 999px;
-  background: rgb(210, 122, 15);
+  background: transparent;
   font-size: large;
   font-weight: 700;
   cursor: pointer;
